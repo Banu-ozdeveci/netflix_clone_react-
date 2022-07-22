@@ -1,6 +1,8 @@
 .navbar{
     color:white;
     font-size: 18px;
+    position:fixed,
+    
 
     .container{
         padding: 5px 20px;
@@ -25,6 +27,7 @@
             }
         }
         .right{
+        
             display:flex;
             align-items: center;
 
@@ -41,11 +44,21 @@
         
         .profile{
             .options{
-                display:none
+                display:none;
+                background-color: var(--main-color);
+                border-radius: 5px;
+
+            }
+            span{
+                padding:10px;
+                cursor: pointer;
             }
             &:hover{
                 .options{
-                    display:flex
+                    display:flex;
+                    flex-direction:column;
+                    position:absolute
+  
                 }
             }
         }
