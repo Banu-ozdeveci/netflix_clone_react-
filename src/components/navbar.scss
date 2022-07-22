@@ -1,0 +1,55 @@
+.navbar{
+    color:white;
+    font-size: 18px;
+
+    .container{
+        padding: 5px 20px;
+        display:flex;
+        align-items: center;
+        justify-content: space-between;
+        height: 70px;;
+        .left{
+
+            display: flex;
+            align-items: center;
+           
+
+
+            img{
+                height: 70px;
+                border-radius: 2px;
+            }
+            span{
+                margin-right: 20px;
+
+            }
+        }
+        .right{
+            display:flex;
+            align-items: center;
+
+            img{
+                width:40px;
+                height: 40px;
+                border-radius: 5px;
+                object-fit: cover;
+                cursor: pointer;
+            }
+            .icon{
+                margin: 0px 15px;
+                cursor: pointer            }
+        
+        .profile{
+            .options{
+                display:none
+            }
+            &:hover{
+                .options{
+                    display:flex
+                }
+            }
+        }
+            }
+     
+    }
+}
