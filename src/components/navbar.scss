@@ -1,7 +1,15 @@
 .navbar{
     color:white;
     font-size: 18px;
+    background: linear-gradient(to top, transparent 0%, rgb(0,0,0,0.9) 50%);
+    top:0;
+    position: fixed;
+    z-index: 999;
+    width:100%;
     
+    &.scrolled {
+        background-color: red;//var(--main-color);
+    }
     .container{
         padding: 5px 30px;
         display:flex;
@@ -26,7 +34,7 @@
             }
         }
         .right{
-        
+            margin:0px 0px 0px 120px;
             display:flex;
             align-items: center;
 

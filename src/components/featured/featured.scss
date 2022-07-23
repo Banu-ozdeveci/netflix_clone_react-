@@ -1,0 +1,51 @@
+.featured{
+    height: 90vh;
+    position:relative;
+ .category{
+    top:100px;
+ }
+    .info{
+        width:35%;
+        position: absolute;
+        left:50px;
+        bottom:100px;
+        color:white;
+        display:flex;
+        flex-direction: column;
+      
+        img{
+            width: 400px;;
+
+    
+        }
+      
+        .desc{
+         font-size: 16px;
+         margin:20px 0px;
+        }
+        .buttons{
+            display:flex;
+            button{
+                padding: 10px 20px;
+                border:none;
+                border-radius: 5px;
+                display:flex;
+                align-items: center;
+                font-size: 18px;
+                justify-content: center;
+                margin-right: 10px;
+                cursor: pointer;
+&.play{
+    background-color: pink;
+    color: var(--main-color);
+}
+&.more{
+background-color: purple;
+}
+span{
+    margin-left: 10px;
+}
+            }
+        }
+    }
+}
